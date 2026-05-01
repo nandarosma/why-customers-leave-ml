@@ -64,3 +64,37 @@ Non-churn → ~61.3
 ![Pickup by Hour](monthly_charges_churn.png)
 
 Higher cost is associated with higher churn risk.
+
+-Machine Learning Models
+
+Three models were used and compared:
+
+1. Logistic Regression
+2. Random Forest
+3. Support Vector Machine (SVM)
+
+a. Preprocessing for Models:
+
+Label Encoding for categorical features
+
+Train-test split (80:20)
+
+Feature scaling (for LR & SVM)
+
+Model Evaluation
+1. Logistic Regression
+
+
+Logistic Regression achieved an accuracy of 82%, with a churn recall of 57% and precision of 62%.
+
+Interpretation:
+
+The model performs well in identifying non-churn customers
+
+It captures more churn cases compared to Random Forest
+
+However, it still misses a portion of customers who actually churn
+
+Conclusion:
+
+Logistic Regression provides a good baseline model with balanced performance, but its ability to detect churn can still be improved.
