@@ -81,7 +81,7 @@ Train-test split (80:20)
 
 Feature scaling (for LR & SVM)
 
-Model Evaluation
+Model Evaluation and Confusion Matrix
 1. Logistic Regression
 
 Logistic Regression achieved an accuracy of 82%, with a churn recall of 57% and precision of 62%.
@@ -129,3 +129,8 @@ Still misses some churn cases (moderate recall)
 
 Conclusion:
 SVM provides the best overall performance among the tested models, making it the most suitable model for this task.
+
+-ROC
+
+![Pickup by Hour](Hour.png)
+
