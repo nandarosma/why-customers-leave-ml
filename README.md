@@ -35,3 +35,26 @@ Dropped irrelevant column (customerID)
 
 Result: Clean dataset ready for analysis and modeling
 
+-Exploratory Data Analysis (EDA)
+
+EDA was conducted to understand patterns and relationships between features and churn.
+
+a. Key Findings:
+1. Contract Type vs Churn
+Month-to-month → ~42.6% churn (highest)
+1-year → ~11%
+2-year → ~2.8% (lowest)
+
+Customers without long-term commitment are more likely to churn.
+
+2. Tenure vs Churn
+Churn customers → ~18 months
+Non-churn customers → ~37 months
+
+New customers are more likely to leave.
+
+3. Monthly Charges vs Churn
+Churn customers → ~74.6
+Non-churn → ~61.3
+
+Higher cost is associated with higher churn risk.
