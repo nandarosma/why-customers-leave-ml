@@ -132,5 +132,22 @@ SVM provides the best overall performance among the tested models, making it the
 
 -ROC
 
-![Pickup by Hour](Hour.png)
+![Pickup by Hour](roc.png)
 
+-Insight
+
+Customers with month-to-month contracts are most likely to churn
+
+Customers with shorter tenure have higher churn risk
+
+Customers with higher monthly charges are more likely to leave
+
+Although SVM performs best overall, all models show moderate recall for churn, meaning:
+
+Some customers who are likely to churn are not being detected.
+
+This suggests:
+
+The dataset may need further optimization
+
+Techniques like hyperparameter tuning or class balancing could improve performance
