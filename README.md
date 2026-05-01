@@ -61,6 +61,6 @@ New customers are more likely to leave.
 Churn customers → ~74.6
 Non-churn → ~61.3
 
-![Pickup by Hour](monthly charges_churn.png)
+![Pickup by Hour](monthly_charges_churn.png)
 
 Higher cost is associated with higher churn risk.
