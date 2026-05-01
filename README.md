@@ -8,7 +8,9 @@ By identifying key factors that influence customer churn, this project provides 
 
 Source: Telco Customer Churn Dataset
 Total records: ~7,000 customers
+
 Features include:
+
 Customer demographics
 
 Service subscriptions
