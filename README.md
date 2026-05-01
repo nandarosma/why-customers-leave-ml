@@ -84,8 +84,9 @@ Feature scaling (for LR & SVM)
 Model Evaluation
 1. Logistic Regression
 
-
 Logistic Regression achieved an accuracy of 82%, with a churn recall of 57% and precision of 62%.
+
+![Pickup by Hour](Logistic_Regression.png)
 
 Interpretation:
 
@@ -98,3 +99,33 @@ However, it still misses a portion of customers who actually churn
 Conclusion:
 
 Logistic Regression provides a good baseline model with balanced performance, but its ability to detect churn can still be improved.
+
+2. Random Forest
+
+Random Forest achieved an accuracy of 81%, with a churn recall of 54% and precision of 60%.
+
+![Pickup by Hour](Random_Forest.png)
+
+Interpretation:
+
+The model slightly underperforms compared to others
+It struggles more in identifying churn customers
+However, it is useful for understanding feature importance
+
+Conclusion:
+While Random Forest is powerful, in this case it does not outperform simpler models and has lower recall for churn prediction.
+
+3. Support Vector Machine (SVM)
+
+SVM achieved the highest accuracy of 83%, with a churn recall of 56% and precision of 64%.
+
+![Pickup by Hour](SVM.png)
+
+Interpretation:
+
+Best overall model in terms of accuracy
+Higher precision indicates fewer false positives
+Still misses some churn cases (moderate recall)
+
+Conclusion:
+SVM provides the best overall performance among the tested models, making it the most suitable model for this task.
