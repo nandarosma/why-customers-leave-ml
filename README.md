@@ -21,3 +21,17 @@ Contract type
 
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
+-Data Preprocessing
+
+To ensure data quality, several cleaning steps were performed:
+
+Converted TotalCharges from object → numeric
+
+Removed missing values (11 rows)
+
+Removed duplicate data (22 rows)
+
+Dropped irrelevant column (customerID)
+
+Result: Clean dataset ready for analysis and modeling
+
