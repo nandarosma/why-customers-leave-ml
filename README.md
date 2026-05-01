@@ -10,8 +10,12 @@ Source: Telco Customer Churn Dataset
 Total records: ~7,000 customers
 Features include:
 Customer demographics
+
 Service subscriptions
+
 Billing information
+
 Contract type
+
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
