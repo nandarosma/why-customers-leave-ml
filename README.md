@@ -45,16 +45,22 @@ Month-to-month → ~42.6% churn (highest)
 1-year → ~11%
 2-year → ~2.8% (lowest)
 
+![Pickup by Hour](contract_churn.png)
+
 Customers without long-term commitment are more likely to churn.
 
 2. Tenure vs Churn
 Churn customers → ~18 months
 Non-churn customers → ~37 months
 
+![Pickup by Hour](tenure_churn.png)
+
 New customers are more likely to leave.
 
 3. Monthly Charges vs Churn
 Churn customers → ~74.6
 Non-churn → ~61.3
+
+![Pickup by Hour](monthly charges_churn.png)
 
 Higher cost is associated with higher churn risk.
